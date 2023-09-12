@@ -20,6 +20,7 @@ jobs:
       - name: Setup Gradle and Compile
         uses: gradle/gradle-build-action@v2
         with:
+          run: chmod +x ./grandlew
           arguments: clean classes testClasses testIntegrationClasses
 
   tests:
