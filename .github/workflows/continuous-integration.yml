@@ -92,7 +92,6 @@ jobs:
 
   release:
     name: Release
-    needs: [tests, security]
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
