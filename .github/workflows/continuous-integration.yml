@@ -16,7 +16,8 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
           java-package: jdk
-
+      - name: Run chmod to make gradlew executable
+        run: chmod +x ./gradlew
       - name: Setup Gradle and Compile
         uses: gradle/gradle-build-action@v2
         with:
