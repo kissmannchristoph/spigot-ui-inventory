@@ -1,6 +1,6 @@
 import org.gradle.kotlin.dsl.support.listFilesOrdered
 
-rootProject.name = "spigot-ui-inventory"
+rootProject.name = "gradle-by-example"
 
 pluginManagement {
     repositories {
